@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <title>Index</title>
+</head>
+<script>
+    function student() {
+        window.location.href = "studlogin.php";
+    }
+    function admin() {
+        window.location.href = "adminlogin.html";
+    }
+</script>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="adminlogin.html">Admin</a>
+                    <a class="nav-link" href="studlogin.php">Student</a>
+                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Help</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <style>
+            #intro-example {
+                height: 650px;
+            }
+        </style>
+
+        <!-- Background image -->
+        <div id="intro-example" class="p-5 text-center bg-image" style="background-image: url('img/index.jpg')">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-3">Student Id Generator</h1>
+                        <hr>
+                        <div align="left">
+                            <h5 class="mb-4">1.Please login or sign up</h5>
+                            <h5 class="mb-4">2.Fill your correct information</h5>
+                            <h5 class="mb-4">3.View your id card</h5>
+                        </div>
+                        <a class="btn btn-outline-light btn-lg m-2" onclick="student();" role="button" rel="nofollow"
+                            target="_blank">Student Login</a>
+                        <a class="btn btn-outline-light btn-lg m-2" onclick="admin();" target="_blank"
+                            role="button">Admin Login</a>
+                    </div>
+                </div>
+            </div>
+            <footer align="right">
+                <u>Created By :</u>
+                1. Mr.Shubham Sambhaji Lagad<br>
+                2. Mr.Sagar Balasaheb Rote
+            </footer>
+        </div>
+
+    </header>
+
+</body>
+
+</html>
